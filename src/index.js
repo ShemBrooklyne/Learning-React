@@ -1,11 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import RenderCounter from './RenderCounter';
 // import App from './App';
 import reportWebVitals from './reportWebVitals';
 // import Maps from './Maps';
 // import Spread from './Spread';
-import Users from './Users';
+// import Users from './Users';
 // import Workers from './Workers';
 
 ReactDOM.render(
@@ -14,7 +15,8 @@ ReactDOM.render(
     {/* <Maps/> */}
     {/* <Spread/> */}
     {/* <Workers/> */}
-    <Users/>
+    {/* <Users/> */}
+    <RenderCounter/>
   </React.StrictMode>,
   document.getElementById('root')
 );
