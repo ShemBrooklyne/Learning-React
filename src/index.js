@@ -1,12 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+// import App from './App';
 import reportWebVitals from './reportWebVitals';
+// import Maps from './Maps';
+// import Spread from './Spread';
+import Users from './Users';
+// import Workers from './Workers';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    {/* <App /> */}
+    {/* <Maps/> */}
+    {/* <Spread/> */}
+    {/* <Workers/> */}
+    <Users/>
   </React.StrictMode>,
   document.getElementById('root')
 );
