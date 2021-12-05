@@ -9,12 +9,13 @@ const Counter = () => {
     }
 
     //component life cycle mounting|updating|unmount
+    //component did mount
     useEffect(() => {
         console.log(`This count has updated to ${count}`);
         return () => {
-            console.log("This component has unmounted");
-        };
-    }, [count])
+            console.log(`we are in cleanup - the count is ${count}`);
+        }; //use of empty array tells use effect to execute on first render only
+    }, [count]) //passing count as args in array acts as update on use effect
     return(
         <React.Fragment>
             <h6>Counter</h6>

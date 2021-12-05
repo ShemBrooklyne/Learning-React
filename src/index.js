@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Comments from './Comments';
 import './index.css';
-import RenderCounter from './RenderCounter';
+// import RenderCounter from './RenderCounter';
 // import App from './App';
 import reportWebVitals from './reportWebVitals';
 // import Maps from './Maps';
@@ -16,7 +17,8 @@ ReactDOM.render(
     {/* <Spread/> */}
     {/* <Workers/> */}
     {/* <Users/> */}
-    <RenderCounter/>
+    {/* <RenderCounter/> */}
+    <Comments/>
   </React.StrictMode>,
   document.getElementById('root')
 );
