@@ -1,10 +1,12 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import Comments from './Comments';
-import './index.css';
+import React from "react";
+import ReactDOM from "react-dom";
+import { BrowserRouter as Router } from "react-router-dom";
+// import Comments from './Comments';
+import "./index.css";
 // import RenderCounter from './RenderCounter';
 // import App from './App';
-import reportWebVitals from './reportWebVitals';
+import reportWebVitals from "./reportWebVitals";
+import Routing from "./Routing";
 // import Maps from './Maps';
 // import Spread from './Spread';
 // import Users from './Users';
@@ -18,9 +20,12 @@ ReactDOM.render(
     {/* <Workers/> */}
     {/* <Users/> */}
     {/* <RenderCounter/> */}
-    <Comments/>
+    {/* <Comments/> */}
+    <Router>
+      <Routing />
+    </Router>
   </React.StrictMode>,
-  document.getElementById('root')
+  document.getElementById("root")
 );
 
 // If you want to start measuring performance in your app, pass a function
